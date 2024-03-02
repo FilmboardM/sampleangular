@@ -48,4 +48,4 @@ jobs:
     - name: Push Docker Image
       run: docker push rohithkalla/my-app:10.1.1
     - name: Deploy to Kubernetes
-      run: kubectl apply -f k8s/deployment.yml
+      run: kubectl apply -f k8s/Deployment.yml
